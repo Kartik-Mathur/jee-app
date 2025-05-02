@@ -32,14 +32,16 @@ const PredictorForm = () => {
         className="relative z-10 w-full max-w-2xl bg-white/70 backdrop-blur-lg shadow-xl shadow-blue-200/30 rounded-2xl p-8 space-y-6 border border-blue-100 animate-fade-in"
       >
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-800 tracking-tight flex items-center gap-3">
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyyrYYvwsGJUaKWIGOebm7tXrPBA9JtvhTg&s"
-              alt="App Logo"
-              className="w-10 h-10 object-contain"
-            />
-            <span>JEE Advanced College Predictor</span>
-          </h2>
+          <div className="flex justify-center items-center mb-6">
+            <h2 className="flex items-center gap-4 text-3xl font-extrabold text-gray-800 tracking-tight">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyyrYYvwsGJUaKWIGOebm7tXrPBA9JtvhTg&s"
+                alt="App Logo"
+                className="w-12 h-12 object-contain"
+              />
+              <span>JEE Advanced College Predictor</span>
+            </h2>
+          </div>
 
           <p className="text-sm text-gray-600 mt-2">
             Discover where you stand. Your dream college is just a click away.
